@@ -1,0 +1,2 @@
+# AI-Powered-Administrative-Assistant-for-Departmental-Automation
+An AI-powered assistant for automating departmental administrative tasks. The system uses natural language processing and intelligent workflows to handle queries, document processing, and task routing, reducing manual effort and improving efficiency in organizational environments. This project is developed for academic and experimental purposes.
