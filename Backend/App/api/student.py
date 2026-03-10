@@ -3,12 +3,12 @@ from app.core.security import require_role
 from app.models.user import User
 
 router = APIRouter(
-    prefix="/admin",
-    tags=["Admin"]
+    prefix="/student",
+    tags=["Student"]
 )
 
 @router.get("/dashboard")
-def admin_dashboard(current_user: User = Depends(require_role("admin"))):
+def student_dashboard(current_user: User = Depends(require_role("student"))):
     return {
-        "message": f"Welcome Admin {current_user.username}"
+        "message": f"Welcome Student {current_user.username}"
     }
